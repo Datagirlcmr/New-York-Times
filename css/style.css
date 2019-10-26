@@ -100,6 +100,13 @@ a {
   width: 50%;
 }
 
+.btn p {
+  font-size: 23px;
+  line-height: 33px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .second div p {
   font-size: 23px;
   line-height: 33px;
@@ -112,13 +119,6 @@ a {
   justify-content: center;
   align-content: center;
   margin-top: -20px;
-}
-
-.btn p {
-  font-size: 23px;
-  line-height: 33px;
-  text-align: center;
-  font-weight: bold;
 }
 
 .white {
