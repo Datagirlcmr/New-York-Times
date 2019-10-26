@@ -1,35 +1,35 @@
-body{
+body {
   background-color: white;
 }
 
-.navbar{
+.navbar {
   position: relative;
 }
 
-.icon{
+.icon {
   width: 40%;
   float: left;
   height: 70px;
 }
 
-.icon i{
+.icon i {
   margin-right: 10px;
 }
 
-.title{
+.title {
   width: 20%;
   float: left;
   height: 70px;
 }
 
-.sub{
+.sub {
   float: right;
   width: 40%;
   text-align: right;
   height: 70px;
 }
 
-.sub button{
+.sub button {
   height: 30px;
   width: 50px;
   border-radius: 4px;
@@ -39,36 +39,36 @@ body{
   margin-right: 10px;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
   margin-right: 5px;
 }
 
-.dr{
+.dr {
   clear: both;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.dr div{
+.dr div {
   clear: both;
   width: 70%;
 }
 
-.dr div img{
+.dr div img {
   width: 100%;
   height: 80%;
 }
 
-.dr div h1{
+.dr div h1 {
   margin-left: 180px;
   line-height: 35px;
   font-size: 35px;
 }
 
-.writ{
+.writ {
   clear: both;
   display: flex;
   justify-content: center;
@@ -76,12 +76,12 @@ a{
   margin-top: 45px;
 }
 
-.first{
+.first {
   clear: both;
   width: 50%;
 }
 
-.first li{
+.first li {
   height: 35px;
   width: 35px;
   border-radius: 100%;
@@ -90,22 +90,22 @@ a{
   margin-left: 10px;
 }
 
-.second{
+.second {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.second div{
+.second div {
   width: 50%;
 }
 
-.second div p{
+.second div p {
   font-size: 23px;
   line-height: 33px;
 }
 
-.btn{
+.btn {
   clear: both;
   display: flex;
   flex-direction: column;
@@ -114,25 +114,25 @@ a{
   margin-top: -20px;
 }
 
-.btn p{
+.btn p {
   font-size: 23px;
   line-height: 33px;
   text-align: center;
   font-weight: bold;
 }
 
-.white{
+.white {
   color: rgb(170, 170, 170);
 }
 
-.btn button{
+.btn button {
   width: 250px;
   margin-left: 510px;
   margin-bottom: 10px;
   padding: 10px;
 }
 
-#log{
+#log {
 color: white;
 background-color: rgb(54, 52, 52);
 border: none;
@@ -141,7 +141,7 @@ font-size: 15px;
 font-weight: bold;
 }
 
-#gol{
+#gol {
   color: black;
   background-color: white;
   font-size: 15px;
