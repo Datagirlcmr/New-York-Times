@@ -3,12 +3,14 @@ body {
 }
 
 .navbar {
+  z-index: 5;
   display: flex;
   width: 100%;
   position: fixed;
   background-color: white;
   margin-top: -8px;
   height: 50px;
+  border-bottom: 1px solid gray;
 }
 
 .icon {
@@ -107,6 +109,12 @@ a {
   width: 50%;
 }
 
+aside p {
+  padding: 6px;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(196, 196, 196)
+}
+
 .btn p {
   font-size: 23px;
   line-height: 33px;
@@ -161,6 +169,7 @@ a {
   width: 100%;
   position: relative;
   margin-top: 60px;
+  z-index: 2;
 }
 
 .flt h4 {
@@ -180,9 +189,9 @@ a {
 }
 
 .cont div {
-width: 30%;
-margin: 10px;
-float: left;
+  width: 30%;
+  margin: 10px;
+  float: left;
 }
 
 .cont div img {
@@ -195,10 +204,4 @@ float: left;
   width: 30%;
   float: right;
   margin-right: 20px;
-}
-
-aside p {
-  padding: 6px;
-  font-size: 18px; 
-  border-bottom: 1px solid rgb(196, 196, 196); 
 }
