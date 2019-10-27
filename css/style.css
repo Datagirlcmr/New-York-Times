@@ -108,7 +108,9 @@ a {
 .second div {
   width: 50%;
 }
-
+.second div img{
+  width: 100%;
+}
 aside p {
   padding: 6px;
   font-size: 18px;
