@@ -3,12 +3,17 @@ body {
 }
 
 .navbar {
-  position: relative;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  margin-top: -8px;
+  height: 50px;
 }
 
 .icon {
+  margin-top: 10px;
   width: 40%;
-  float: left;
   height: 70px;
 }
 
@@ -17,13 +22,13 @@ body {
 }
 
 .title {
+  margin-top: 10px;
   width: 20%;
-  float: left;
   height: 70px;
 }
 
 .sub {
-  float: right;
+  margin-top: 10px;
   width: 40%;
   text-align: right;
   height: 70px;
@@ -36,7 +41,7 @@ body {
   border: none;
   color: aliceblue;
   background-color: black;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 a {
@@ -46,7 +51,6 @@ a {
 }
 
 .dr {
-  clear: both;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -64,6 +68,7 @@ a {
 
 .dr div h1 {
   margin-left: 180px;
+  margin-top: 80px;
   line-height: 35px;
   font-size: 35px;
 }
@@ -77,6 +82,7 @@ a {
 }
 
 .first {
+  margin-top: 40px;
   clear: both;
   width: 50%;
 }
@@ -88,6 +94,7 @@ a {
   border: none;
   float: right;
   margin-left: 10px;
+  margin-top: -30px;
 }
 
 .second {
@@ -148,4 +155,50 @@ a {
   border-radius: 5px;
   font-weight: bold;
   border: 2px solid black;
+}
+
+.flt {
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+
+.flt h4 {
+  margin: 10px;
+}
+
+.flt article {
+  border-top: 1px solid;
+  width: 60%;
+  float: left;
+  margin-left: 40px;
+}
+
+.cont {
+  width: 100%;
+  max-height: 50px;
+}
+
+.cont div {
+width: 30%;
+margin: 10px;
+float: left;
+}
+
+.cont div img {
+  width: 100%;
+  height: 30%;
+}
+
+.flt aside {
+  border-top: 1px solid;
+  width: 30%;
+  float: right;
+  margin-right: 20px;
+}
+
+aside p {
+  padding: 6px;
+  font-size: 18px; 
+  border-bottom: 1px solid rgb(196, 196, 196); 
 }
