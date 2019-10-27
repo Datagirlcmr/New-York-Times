@@ -186,6 +186,19 @@ aside p {
   margin-top: -150px;
 }
 
+#skt{
+  margin-left: 170px;
+  width: 850px;
+  color: grey;
+}
+
+#skt small{
+  font-size: 20px;
+  font-weight:bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
 .btn {
   clear: both;
   display: flex;
