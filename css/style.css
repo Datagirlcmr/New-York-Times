@@ -112,7 +112,7 @@ a {
 aside p {
   padding: 6px;
   font-size: 18px;
-  border-bottom: 1px solid rgb(196, 196, 196)
+  border-bottom: 1px solid rgb(196, 196, 196);
 }
 
 .btn p {
