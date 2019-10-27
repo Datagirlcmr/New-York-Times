@@ -126,6 +126,65 @@ aside p {
   font-size: 23px;
   line-height: 33px;
 }
+.sketch div {
+  position: relative;
+  width: 70%;
+  max-height: 600px;
+  margin-left: 170px;
+}
+
+.sketch div img {
+  width: 100%;
+  z-index: 2;
+}
+
+.sketch p {
+  z-index: 5;
+  width: 200px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.sketch #p1 {
+  top: 2px;
+  margin-top: -400px;
+}
+
+.sketch #p2 {
+  margin-left: 250px;
+  margin-top: -140px;
+}
+
+.sketch #p3 {
+  margin-left: 500px;
+  margin-top: -130px;
+}
+
+.sketch #p4{
+  margin-left: 730px;
+  margin-top: -120px;
+}
+
+.sketch #p5{
+  margin-top: 120px;
+}
+
+.sketch #p6{
+  margin-top: -150px;
+  margin-left: 250px;
+}
+
+.sketch #p7{
+  margin-left: 460px;
+  margin-top: -150px;
+}
+
+.sketch #p8{
+  margin-left: 700px;
+  margin-top: -150px;
+}
 
 .btn {
   clear: both;
