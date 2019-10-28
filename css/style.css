@@ -25,7 +25,6 @@ a {
   margin-top: 10px;
   width: 40%;
   height: 70px;
-  float: left;
 }
 
 .icon i {
@@ -55,7 +54,6 @@ a {
   width: 40%;
   text-align: right;
   height: 70px;
-  float: right;
 }
 
 .sub button {
@@ -173,12 +171,12 @@ aside p {
 }
 
 .second div p {
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 30px;
 }
 #inflation-theory-info{
 	position: relative;
-	margin-left: 20%;
+	margin-left: 15%;
   width: 945px;
   
 }
@@ -205,7 +203,6 @@ aside p {
 	
 }
 .span-inflation{
-	display: inline-block;
 	width: 220px;
 	font-size: 14px;
 	float: left;
@@ -225,6 +222,25 @@ aside p {
 	font-weight: bold;
 }
 
+.secondb{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.secondb div{
+  width: 70%;
+  margin-left: -10px;
+}
+.secondb div p{
+
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.secondb div img{
+  width: 100%;
+}
 .btn {
   width: 50%;
   clear: both;
