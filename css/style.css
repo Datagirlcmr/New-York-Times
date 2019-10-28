@@ -18,12 +18,6 @@ iframe{
 }
 
 a{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  text-decoration: initial;
   color: black;
 }
 
@@ -35,6 +29,13 @@ a:hover{
 
 .icon i {
   margin-right: 10px;
+}
+.icon a{
+  text-decoration:none
+}
+
+.icon a:hover{
+  text-decoration:underline;
 }
 
 .title {
@@ -106,6 +107,16 @@ a:hover{
   margin-left: 10px;
   margin-top: -30px;
 }
+
+.first #aw{
+  float: right;
+}
+ #aw button {
+   height: 40px;
+   width: 40px;
+   border: none;
+   border-radius: 100%;
+ }
 
 .second {
   display: flex;
@@ -290,7 +301,7 @@ aside p {
 
 footer{
   clear: both;
-  border-top: 2px groove grey;
+  border-top: 1px groove grey;
   margin: 10px;
 }
 .goto{
@@ -313,6 +324,21 @@ footer{
   margin-left: 10px;
 }
 
-.footer ul{
+.footer a{
   text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+.footer li{
+  list-style: none;
+  margin-top: 5px;
+}
+
+.footer h5{
+  margin-left: 40px;
+  font-weight: 950;
+  margin-bottom: -5px;
 }
