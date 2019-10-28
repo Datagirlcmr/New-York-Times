@@ -25,6 +25,7 @@ a{
   margin-top: 10px;
   width: 40%;
   height: 70px;
+  float: left;
 }
 
 .icon i {
@@ -49,6 +50,7 @@ a{
   width: 40%;
   text-align: right;
   height: 70px;
+  float: right;
 }
 
 .sub button {
@@ -59,6 +61,7 @@ a{
   color: aliceblue;
   background-color: black;
   margin-right: 20px;
+  margin-left: 5px;
 }
 
 .dr {
@@ -136,11 +139,8 @@ aside p {
   border-bottom: 1px solid rgb(196, 196, 196);
 }
 
-.btn p {
-  font-size: 23px;
-  line-height: 33px;
-  text-align: center;
-  font-weight: bold;
+.btn small{
+  color: grey;
 }
 
 .second div p {
@@ -179,12 +179,12 @@ aside p {
 }
 
 .sketch #p3 {
-  margin-left: 500px;
+  margin-left: 465px;
   margin-top: -130px;
 }
 
 .sketch #p4{
-  margin-left: 730px;
+  margin-left: 705px;
   margin-top: -120px;
 }
 
@@ -221,12 +221,19 @@ aside p {
 }
 
 .btn {
+  width: 50%;
   clear: both;
   display: flex;
+  height: 50px;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  margin-top: -20px;
+  justify-content:space-between;
+  margin-top: -50px;
+  margin-left: 25%;
+}
+
+.btn div{
+  display: flex;
+  justify-content: space-between;
 }
 
 .white {
@@ -234,15 +241,16 @@ aside p {
 }
 
 .btn button {
-  width: 250px;
-  margin-left: 510px;
+  height: 45px;
   margin-bottom: 10px;
   padding: 10px;
+  width: 280px;
+  margin-left: 10px;
 }
 
 #log {
   color: white;
-  background-color: rgb(54, 52, 52);
+  background-color: rgb(86, 123, 149); 
   border: none;
   border-radius: 5px;
   font-size: 15px;
@@ -299,6 +307,10 @@ aside p {
   margin-right: 20px;
 }
 
+.flt h1{
+  color: white;
+}
+
 footer{
   clear: both;
   border-top: 1px groove grey;
@@ -308,7 +320,7 @@ footer{
   float: right;
   color: rgb(54, 101, 134);
   font-family: nyt-franklin;
-  font-size: 11px;
+  font-size: 15px;
   margin-top: 10px;
 }
 
@@ -341,4 +353,13 @@ footer{
   margin-left: 40px;
   font-weight: 950;
   margin-bottom: -5px;
+}
+
+.bottom{
+  color: grey;
+  padding: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+  clear: both;
+  text-align:center;
 }
