@@ -6,7 +6,7 @@
  <p align="center">
    Thrird Microverse Project - Positioning and Floating Elements </br>
  
-                  This project consists of making a clone of a New York Times article page. All elements are aligned using float
+     This project consists of making a clone of a New York Times article page. All elements are aligned using float
    <br />
    <a href="https://github.com/Datagirlcmr/New-York-Times/tree/features"><strong>Explore the docs »</strong></a>
    <br />
