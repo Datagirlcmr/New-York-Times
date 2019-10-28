@@ -27,7 +27,7 @@
 Selma Ndi :woman: - [Github profile](https://github.com/Datagirlcmr)
 <br>
 Tresor Bireke :man: - [Github profile](https://github.com/Tresor11)
-Project Link :envelope:: [Project repo](https://github.com/Tresor11/mint-signup/tree/features)
+Project Link :envelope:: [Project repo](https://github.com/Datagirlcmr/New-York-Times)
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
