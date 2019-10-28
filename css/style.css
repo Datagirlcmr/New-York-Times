@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 
-iframe{
+iframe {
   border: 0px;
 }
 
@@ -17,7 +17,7 @@ iframe{
   border-bottom: 1px solid gray;
 }
 
-a{
+a {
   color: black;
 }
 
@@ -31,12 +31,13 @@ a{
 .icon i {
   margin-right: 10px;
 }
-.icon a{
-  text-decoration:none
+
+.icon a {
+  text-decoration: none
 }
 
-.icon a:hover{
-  text-decoration:underline;
+.icon a:hover {
+  text-decoration: underline;
 }
 
 .title {
@@ -111,19 +112,20 @@ a{
   margin-top: -30px;
 }
 
-.first #aw{
+.first #aw {
   float: right;
 }
- #aw button {
-   height: 30px;
-   width: 30px;
-   border: none;
-   border-radius: 100%;
- }
- 
- #aw img{
-   margin-bottom: -15px;
- }
+
+#aw button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 100%;
+}
+
+#aw img {
+  margin-bottom: -15px;
+}
 
 .second {
   display: flex;
@@ -134,16 +136,18 @@ a{
 .second div {
   width: 50%;
 }
-.second div img{
+
+.second div img {
   width: 100%;
 }
+
 aside p {
   padding: 6px;
   font-size: 18px;
   border-bottom: 1px solid rgb(196, 196, 196);
 }
 
-.btn small{
+.btn small {
   color: grey;
 }
 
@@ -151,6 +155,7 @@ aside p {
   font-size: 23px;
   line-height: 33px;
 }
+
 .sketch div {
   position: relative;
   width: 70%;
@@ -187,39 +192,39 @@ aside p {
   margin-top: -130px;
 }
 
-.sketch #p4{
+.sketch #p4 {
   margin-left: 705px;
   margin-top: -120px;
 }
 
-.sketch #p5{
+.sketch #p5 {
   margin-top: 120px;
 }
 
-.sketch #p6{
+.sketch #p6 {
   margin-top: -150px;
   margin-left: 250px;
 }
 
-.sketch #p7{
+.sketch #p7 {
   margin-left: 460px;
   margin-top: -150px;
 }
 
-.sketch #p8{
+.sketch #p8 {
   margin-left: 700px;
   margin-top: -150px;
 }
 
-#skt{
+#skt {
   margin-left: 170px;
   width: 850px;
   color: grey;
 }
 
-#skt small{
+#skt small {
   font-size: 20px;
-  font-weight:bold;
+  font-weight: bold;
   margin-bottom: 20px;
   color: black;
 }
@@ -230,12 +235,12 @@ aside p {
   display: flex;
   height: 50px;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: -50px;
   margin-left: 25%;
 }
 
-.btn div{
+.btn div {
   display: flex;
   justify-content: space-between;
 }
@@ -254,7 +259,7 @@ aside p {
 
 #log {
   color: white;
-  background-color: rgb(86, 123, 149); 
+  background-color: rgb(86, 123, 149);
   border: none;
   border-radius: 5px;
   font-size: 15px;
@@ -311,16 +316,17 @@ aside p {
   margin-right: 20px;
 }
 
-.flt h1{
+.flt h1 {
   color: white;
 }
 
-footer{
+footer {
   clear: both;
   border-top: 1px groove grey;
   margin: 10px;
 }
-.goto{
+
+.goto {
   float: right;
   color: rgb(54, 101, 134);
   font-family: nyt-franklin;
@@ -328,44 +334,44 @@ footer{
   margin-top: 10px;
 }
 
-.footer{
+.footer {
   position: relative;
   width: 100%;
 }
 
-.footer div{
+.footer div {
   width: 15%;
   float: left;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
 }
 
-.footer a:hover{
+.footer a:hover {
   text-decoration: underline;
 }
 
-.footer li{
+.footer li {
   list-style: none;
   margin-top: 5px;
 }
 
-.footer h5{
+.footer h5 {
   margin-left: 40px;
   font-weight: 950;
   margin-bottom: -5px;
 }
 
-.bottom{
+.bottom {
   color: grey;
   padding: 20px;
   font-size: 15px;
   margin-top: 20px;
   clear: both;
-  text-align:center;
+  text-align: center;
 }
 
 #wa button {
