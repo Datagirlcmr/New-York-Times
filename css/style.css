@@ -143,11 +143,6 @@ a {
   width: 100%;
 }
 
-.sketch div img {
-  width: 100%;
-  z-index: 2;
-}
-
 .cont div img {
   width: 100%;
   height: 30%;
@@ -177,64 +172,45 @@ aside p {
   color: grey;
 }
 
-.sketch p {
-  z-index: 5;
-  width: 200px;
-  font-size: 15px;
-  line-height: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
+
 
 .second div p {
   font-size: 23px;
   line-height: 33px;
 }
 
-.sketch div {
-  position: relative;
+.sketch{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
   width: 70%;
-  max-height: 600px;
-  margin-left: 170px;
+  margin-left: 15%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.sketch #p1 {
-  top: 2px;
-  margin-top: -400px;
+.chila,.chilb{
+  width: 100%;
+  display: flex;
+}
+.chila div, .chilb div{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.sketch #p2 {
-  margin-left: 250px;
-  margin-top: -140px;
+.chila div img , .chilb div im{
+  width: 100%;
 }
 
-.sketch #p3 {
-  margin-left: 465px;
-  margin-top: -130px;
-}
-
-.sketch #p4 {
-  margin-left: 705px;
-  margin-top: -120px;
-}
-
-.sketch #p5 {
-  margin-top: 120px;
-}
-
-.sketch #p6 {
-  margin-top: -150px;
-  margin-left: 250px;
-}
-
-.sketch #p7 {
-  margin-left: 460px;
-  margin-top: -150px;
-}
-
-.sketch #p8 {
-  margin-left: 700px;
-  margin-top: -150px;
+.chila p{
+  width: 50%;
 }
 
 #skt {
