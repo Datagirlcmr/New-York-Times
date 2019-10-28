@@ -6,7 +6,7 @@
  <p align="center">
    Thrird Microverse Project - Positioning and floating elements </br>
  
-                            This is a clone of the New York times wedsite
+                               This is a clone of the New York times wedsite
    <br />
    <a href="https://github.com/Datagirlcmr/New-York-Times/tree/features"><strong>Explore the docs »</strong></a>
    <br />
