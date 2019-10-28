@@ -6,7 +6,7 @@
  <p align="center">
    Thrird Microverse Project - Positioning and floating elements </br>
  
-                          This is a clone of the New York times wedsite
+                            This is a clone of the New York times wedsite
    <br />
    <a href="https://github.com/Datagirlcmr/New-York-Times/tree/features"><strong>Explore the docs »</strong></a>
    <br />
@@ -33,8 +33,7 @@ Project Link :envelope:: [Project repo](https://github.com/Tresor11/mint-signup/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/Tresor11/mint-signup/graphs/contributors
+[contributors-url]: https://github.com/Datagirlcmr/New-York-Times/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/Tresor11/mint-signup/issues
-[product-screenshot]: ./images/template.PNG
+[issues-url]: https://github.com/Datagirlcmr/New-York-Times/issues
 
