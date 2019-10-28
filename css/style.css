@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+iframe{
+  border: 0px;
+}
+
 .navbar {
   z-index: 5;
   display: flex;
@@ -11,6 +15,16 @@ body {
   margin-top: -8px;
   height: 50px;
   border-bottom: 1px solid gray;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: initial;
+  color: black;
 }
 
 .icon {
@@ -44,12 +58,6 @@ body {
   color: aliceblue;
   background-color: black;
   margin-right: 20px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  margin-right: 5px;
 }
 
 .dr {
@@ -278,4 +286,33 @@ aside p {
   width: 30%;
   float: right;
   margin-right: 20px;
+}
+
+footer{
+  clear: both;
+  border-top: 2px groove grey;
+  margin: 10px;
+}
+.goto{
+  float: right;
+  color: rgb(54, 101, 134);
+  font-family: nyt-franklin;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+}
+
+.footer div{
+  width: 15%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer ul{
+  text-decoration: none;
 }
