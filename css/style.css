@@ -2,10 +2,6 @@ body {
   background-color: white;
 }
 
-iframe {
-  border: 0px;
-}
-
 .navbar {
   z-index: 5;
   display: flex;
@@ -15,6 +11,10 @@ iframe {
   margin-top: -8px;
   height: 50px;
   border-bottom: 1px solid gray;
+}
+
+iframe {
+  border: none;
 }
 
 a {
@@ -33,7 +33,11 @@ a {
 }
 
 .icon a {
-  text-decoration: none
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 .icon a:hover {
@@ -81,6 +85,10 @@ a {
   height: 80%;
 }
 
+.flt h1 {
+  color: white;
+}
+
 .dr div h1 {
   margin-left: 180px;
   margin-top: 80px;
@@ -116,11 +124,33 @@ a {
   float: right;
 }
 
+.btn button {
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 280px;
+  margin-left: 10px;
+}
+
 #aw button {
   height: 30px;
   width: 30px;
   border: none;
   border-radius: 100%;
+}
+
+.second div img {
+  width: 100%;
+}
+
+.sketch div img {
+  width: 100%;
+  z-index: 2;
+}
+
+.cont div img {
+  width: 100%;
+  height: 30%;
 }
 
 #aw img {
@@ -137,10 +167,6 @@ a {
   width: 50%;
 }
 
-.second div img {
-  width: 100%;
-}
-
 aside p {
   padding: 6px;
   font-size: 18px;
@@ -149,6 +175,15 @@ aside p {
 
 .btn small {
   color: grey;
+}
+
+.sketch p {
+  z-index: 5;
+  width: 200px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .second div p {
@@ -161,20 +196,6 @@ aside p {
   width: 70%;
   max-height: 600px;
   margin-left: 170px;
-}
-
-.sketch div img {
-  width: 100%;
-  z-index: 2;
-}
-
-.sketch p {
-  z-index: 5;
-  width: 200px;
-  font-size: 15px;
-  line-height: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .sketch #p1 {
@@ -249,14 +270,6 @@ aside p {
   color: rgb(170, 170, 170);
 }
 
-.btn button {
-  height: 45px;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 280px;
-  margin-left: 10px;
-}
-
 #log {
   color: white;
   background-color: rgb(86, 123, 149);
@@ -304,20 +317,11 @@ aside p {
   float: left;
 }
 
-.cont div img {
-  width: 100%;
-  height: 30%;
-}
-
 .flt aside {
   border-top: 1px solid;
   width: 30%;
   float: right;
   margin-right: 20px;
-}
-
-.flt h1 {
-  color: white;
 }
 
 footer {
@@ -329,7 +333,6 @@ footer {
 .goto {
   float: right;
   color: rgb(54, 101, 134);
-  font-family: nyt-franklin;
   font-size: 15px;
   margin-top: 10px;
 }
@@ -344,10 +347,6 @@ footer {
   float: left;
   margin-right: 10px;
   margin-left: 10px;
-}
-
-.footer a {
-  text-decoration: none;
 }
 
 .footer a:hover {
