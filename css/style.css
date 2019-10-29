@@ -174,35 +174,38 @@ aside p {
   font-size: 20px;
   line-height: 30px;
 }
-#inflation-theory-info{
+#inflation-theory-info {
 	position: relative;
 	margin-left: 15%;
   width: 945px;
   
 }
 
-#inflation-title{
-	margin-bottom: 5px;
+#inflation-title {
+  margin-bottom: 5px;
 	font-size: 20px;
 }
 
-#inflation-description{
-	margin-top: 5px;
+#inflation-description {
+  margin-top: 5px;
 	font-size: 15px;
 	color: #808080;
 	font-weight: lighter;
 }
-#inf-img{
+
+#inf-img {
 	width: 945px;
 	height: auto;
 }
-#spans-inflation-container{
+
+#spans-inflation-container {
 	position: absolute;
 	top: 150px;
 	
 	
 }
-.span-inflation{
+
+.span-inflation {
 	width: 220px;
 	font-size: 14px;
 	float: left;
@@ -210,37 +213,39 @@ aside p {
 	margin-bottom: 50px;
 	margin-top: 100px;
 	word-spacing: 2px;
-	/*text-align: left;*/
 	line-height: 17px;
 	font-weight: 300;
 	
 }
-.span-inflation-margin{
+
+.span-inflation-margin {
 	margin-right: 20px;
 }
-.span-inflation strong{
+
+.span-inflation strong {
 	font-weight: bold;
 }
 
-.secondb{
+.secondb {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.secondb div{
+.secondb div {
   width: 70%;
   margin-left: -10px;
 }
-.secondb div p{
 
+.secondb div p {
   font-size: 20px;
   line-height: 30px;
 }
 
-.secondb div img{
+.secondb div img {
   width: 100%;
 }
+
 .btn {
   width: 50%;
   clear: both;
