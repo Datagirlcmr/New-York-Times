@@ -175,10 +175,9 @@ aside p {
   line-height: 30px;
 }
 #inflation-theory-info {
-	position: relative;
-	margin-left: 15%;
-  width: 945px;
-  
+  position: relative;
+  margin-left: 15%;
+  width: 945px;  
 }
 
 #inflation-title {
@@ -200,9 +199,7 @@ aside p {
 
 #spans-inflation-container {
 	position: absolute;
-	top: 150px;
-	
-	
+	top: 150px;	
 }
 
 .span-inflation {
@@ -215,11 +212,10 @@ aside p {
 	word-spacing: 2px;
 	line-height: 17px;
 	font-weight: 300;
-	
 }
 
 .span-inflation-margin {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .span-inflation strong {
