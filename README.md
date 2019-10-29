@@ -4,9 +4,9 @@
 <p align="center">
  <h3 align="center">The Project was made by - TRESOR / SELMA</h3>
  <p align="center">
-   Thrird Microverse Project - Positioning and Floating Elements </br>
- 
-     This project consists of making a clone of a New York Times article page. All elements are aligned using float
+   Thrird Microverse Project - Positioning and floating elements </br>
+  This project consists of making a clone of a New York Times article page. All elements are aligned using float
+  
    <br />
    <a href="https://github.com/Datagirlcmr/New-York-Times/tree/features"><strong>Explore the docs »</strong></a>
    <br />
@@ -27,7 +27,7 @@
 Selma Ndi :woman: - [Github profile](https://github.com/Datagirlcmr)
 <br>
 Tresor Bireke :man: - [Github profile](https://github.com/Tresor11)
-Project Link :envelope:: [Project repo](https://github.com/Datagirlcmr/New-York-Times)
+Project Link :envelope:: [Project repo](https://github.com/Tresor11/mint-signup/tree/features)
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
