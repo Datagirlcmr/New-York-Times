@@ -146,6 +146,10 @@ a {
   width: 100%;
 }
 
+.secondb div img {
+  width: 100%;
+}
+
 #aw img {
   margin-bottom: -15px;
 }
@@ -236,10 +240,6 @@ aside p {
 .secondb div p {
   font-size: 20px;
   line-height: 30px;
-}
-
-.secondb div img {
-  width: 100%;
 }
 
 .btn {
