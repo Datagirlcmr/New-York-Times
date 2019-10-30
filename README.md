@@ -11,7 +11,7 @@
    <a href="https://github.com/Datagirlcmr/New-York-Times/tree/features"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://raw.githack.com/Datagirlcmr/New-York-Times/features/"> :wink: View Demo </a> 
+   <a href="https://rawcdn.githack.com/Datagirlcmr/New-York-Times/b89aed96d33c452ed3af840b5b90c6df253f244a/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
